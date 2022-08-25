@@ -1,0 +1,39 @@
+﻿<Page x:Class="UIKitTutorials.Pages.NotesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UIKitTutorials.Pages"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NotesPage">
+
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Loaded="Border_Loaded_1">
+        <Grid Margin="0,-10,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="391*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <hc:TextBox hc:InfoElement.Placeholder="time of the event (24hr format )"
+                Margin="48,201,503.752,199" Width="230" Height="50" x:Name="time_txt"/>
+            <hc:TextBox hc:InfoElement.Placeholder="date of the event (dd/mm/yy)"
+                Margin="458,80,93.752,320" Width="230" Height="50" x:Name="start_date_txt"/>
+            <hc:TextBox hc:InfoElement.Placeholder="end time of the event (24hr format)"
+                Margin="48,297,503.752,103" Width="230" Height="50" x:Name="end_time_txt"/>
+            <hc:TextBox hc:InfoElement.Placeholder="name of the event "
+                Margin="48,80,503.752,320" Width="230" Height="50" x:Name="name_txt"/>
+            <hc:TextBox hc:InfoElement.Placeholder="end date of the event (dd/mm/yy)"
+                Margin="458,179,93.752,221" Width="230" Height="50" x:Name="end_date_txt"/>
+            <Button Content="Add Event&#xD;&#xA;" HorizontalAlignment="Left" Height="41" Margin="507,368,0,0" VerticalAlignment="Top" Width="225" Background="#FF3413C9" Foreground="White" FontSize="14" VerticalContentAlignment="Center" Click="Button_Click"/>
+
+            <TextBlock HorizontalAlignment="Left" Height="29" Margin="316,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" FontSize="18" FontWeight="Bold"><Run Text="Add "/><Run Foreground="#FFCE1743" Text="Event"/></TextBlock>
+
+
+
+
+
+
+        </Grid>
+    </Border>
+</Page>

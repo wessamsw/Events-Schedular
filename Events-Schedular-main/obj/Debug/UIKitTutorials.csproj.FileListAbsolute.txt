@@ -1,0 +1,92 @@
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\bin\Debug\UIKitTutorials.exe.config
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\bin\Debug\UIKitTutorials.exe
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\bin\Debug\UIKitTutorials.pdb
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.csprojAssemblyReference.cache
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\MainWindow.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\App.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials_MarkupCompile.cache
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials_MarkupCompile.lref
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\MainWindow.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.g.resources
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.Properties.Resources.resources
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.csproj.GenerateResource.cache
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.csproj.CoreCompileInputs.cache
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.exe
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\UIKitTutorials.pdb
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\App.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Themes\LightTheme.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\HomePage.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\HomePage.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\NotesPage.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\PaymentPage.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\SoundsPage.g.cs
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\NotesPage.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\PaymentPage.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Pages\SoundsPage.baml
+C:\Users\JEYDERHT\Desktop\C# - Professional\WPF - YouTube\UIKitTutorials\obj\Debug\Styles\MainStyle.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\UIKitTutorials.exe.config
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\UIKitTutorials.exe
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\UIKitTutorials.pdb
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\MainWindow.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\HomePage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\NotesPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\PaymentPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\SoundsPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\App.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials_MarkupCompile.cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials_MarkupCompile.lref
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\App.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\MainWindow.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\HomePage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\NotesPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\PaymentPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Pages\SoundsPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Styles\MainStyle.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\Themes\LightTheme.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.g.resources
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.Properties.Resources.resources
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.csproj.GenerateResource.Cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.exe
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.pdb
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.csprojAssemblyReference.cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pegasus\Desktop\UIKitTutorials-main\obj\Debug\UIKitTutorials.csproj.CopyComplete
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.csprojAssemblyReference.cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\MainWindow.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\HomePage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\NotesPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\PaymentPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\SoundsPage.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\App.g.cs
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials_MarkupCompile.cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials_MarkupCompile.lref
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.exe
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.pdb
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\UIKitTutorials.exe.config
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\UIKitTutorials.exe
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\UIKitTutorials.pdb
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\App.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\MainWindow.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\HomePage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\NotesPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\PaymentPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Pages\SoundsPage.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Styles\MainStyle.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\Themes\LightTheme.baml
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.g.resources
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.Properties.Resources.resources
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.csproj.GenerateResource.cache
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\obj\Debug\UIKitTutorials.csproj.CopyComplete
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\HandyControl.dll
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\HandyControl.pdb
+C:\Users\pegasus\Desktop\UIKitTutorials-main - Copy\bin\Debug\HandyControl.xml

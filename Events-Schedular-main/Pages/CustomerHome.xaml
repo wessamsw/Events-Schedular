@@ -1,0 +1,113 @@
+﻿<Page x:Class="UIKitTutorials.Pages.CustomerHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UIKitTutorials.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CustomerHome">
+
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Loaded="Border_Loaded">
+        <Grid>
+
+            <ListView HorizontalAlignment="Center" x:Name="lst_services" Margin="10,39,21,45" Width="769" SelectionChanged="lst_SelectionChanged" Visibility="Hidden"  Grid.ColumnSpan="3">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="185" DisplayMemberBinding="{Binding id}" />
+                        <GridViewColumn Header="Name" Width="185" DisplayMemberBinding="{Binding name}"/>
+                        <GridViewColumn Header="Price" Width="185" DisplayMemberBinding="{Binding price}"/>
+                        <GridViewColumn Header="Book" Width="210" >
+                            <GridViewColumn.CellTemplate>
+
+                                <DataTemplate>
+                                    <Button Content="Book" Width="100"  CommandParameter="{Binding}"></Button>
+
+
+
+
+
+
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <ListView HorizontalAlignment="Center" x:Name="lst_cars" Margin="10,39,21,45" Width="769" SelectionChanged="lst_SelectionChanged" Visibility="Hidden"  Grid.ColumnSpan="3" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="80" DisplayMemberBinding="{Binding id}" />
+                        <GridViewColumn Header="Make" Width="110" DisplayMemberBinding="{Binding make}"/>
+                        <GridViewColumn Header="Model" Width="110" DisplayMemberBinding="{Binding model}"/>
+                        <GridViewColumn Header="Year" Width="80" DisplayMemberBinding="{Binding year}"/>
+                        <GridViewColumn Header="Selling Price" Width="90" DisplayMemberBinding="{Binding sellingPrice}"/>
+                        <GridViewColumn Header="Renting Price" Width="80" DisplayMemberBinding="{Binding rentingPrice}"/>
+
+                        <GridViewColumn Header="Buy" Width="110" >
+
+
+                            <GridViewColumn.CellTemplate>
+
+                                <DataTemplate>
+                                    <Button Content="Buy" Width="100"  CommandParameter="{Binding}"></Button>
+
+
+
+
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="Rent" Width="110" >
+
+
+                            <GridViewColumn.CellTemplate>
+
+                                <DataTemplate>
+                                    <Button Content="Rent" Width="100"  CommandParameter="{Binding}"></Button>
+
+
+
+
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <ListView HorizontalAlignment="Center" x:Name="lst_garages" Margin="10,39,21,45" Width="769" SelectionChanged="lst_SelectionChanged" Visibility="Hidden" Grid.ColumnSpan="3">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="255" DisplayMemberBinding="{Binding name}"/>
+                        <GridViewColumn Header="Location" Width="255" DisplayMemberBinding="{Binding location}"/>
+                        <GridViewColumn Header="Phone Number" Width="255" DisplayMemberBinding="{Binding phonenumber}"/>
+                        
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <ListView HorizontalAlignment="Center" x:Name="lst_showrooms" Margin="10,39,21,45" Width="769" SelectionChanged="lst_SelectionChanged" Visibility="Hidden" Grid.ColumnSpan="3">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="255" DisplayMemberBinding="{Binding name}"/>
+                        <GridViewColumn Header="Location" Width="255" DisplayMemberBinding="{Binding location}"/>
+                        <GridViewColumn Header="Phone Number" Width="255" DisplayMemberBinding="{Binding phoneNumber}"/>
+                        
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+
+            <ComboBox x:Name="adminbox" HorizontalAlignment="Left" Margin="34,9,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="adminbox_SelectionChanged" SelectedIndex="0"/>
+
+
+        </Grid>
+    </Border>
+</Page>

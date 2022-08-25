@@ -1,0 +1,35 @@
+﻿<Page x:Class="UIKitTutorials.Pages.PaymentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UIKitTutorials.Pages"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PaymentPage">
+
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Loaded="Border_Loaded">
+        <Grid>
+            <ComboBox Margin="29,34,671,396"  Width="100" Height="20" x:Name="comboBox1"/>
+            <TextBlock HorizontalAlignment="Left" Height="29" Margin="296,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" FontSize="18" FontWeight="Bold"><Run Text="Edit "/><Run Foreground="#FFCE1743" Text="Event"/></TextBlock>
+            <hc:TextBox hc:InfoElement.Placeholder="user"
+                Margin="443,89,127,311" Width="230" Height="50" x:Name="user"/>
+            <hc:TextBox hc:InfoElement.Placeholder="start time"
+                Margin="443,161,127,239" Width="230" Height="50" x:Name="start_time"/>
+            <hc:TextBox hc:InfoElement.Placeholder="start date "
+                Margin="48,171,522,229" Width="230" Height="50" x:Name="start_date"/>
+            <hc:TextBox hc:InfoElement.Placeholder="id "
+                Margin="443,14,127,386" Width="230" Height="50" x:Name="iD" IsReadOnly="True"/>
+            <hc:TextBox hc:InfoElement.Placeholder="end date"
+                Margin="48,239,522,161" Width="230" Height="50" x:Name="end_date"/>
+            <hc:TextBox hc:InfoElement.Placeholder="end time"
+                Margin="443,239,127,161" Width="230" Height="50" x:Name="end_time"/>
+
+            <Button Content="update" HorizontalAlignment="Left" Margin="326,383,0,0" VerticalAlignment="Top" Width="75" Click="update_data"/>
+            <Button Content="show" HorizontalAlignment="Left" Margin="219,383,0,0" VerticalAlignment="Top" Width="75" Click="show_data"/>
+            <hc:TextBox hc:InfoElement.Placeholder="name "
+                Margin="48,95,522,305" Width="230" Height="50" x:Name="name" />
+        </Grid>
+    </Border>
+</Page>

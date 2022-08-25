@@ -1,0 +1,65 @@
+﻿<Page x:Class="UIKitTutorials.Pages.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UIKitTutorials.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HomePage">
+
+    <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
+        <Grid>
+
+            <ListView HorizontalAlignment="Center" x:Name="lst" DockPanel.Dock="Right" Margin="20,10,20,74" Width="860" SelectionChanged="lst_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="id" Width="110" DisplayMemberBinding="{Binding id}" />
+                        <GridViewColumn Header="username" Width="110" DisplayMemberBinding="{Binding user}"/>
+                        <GridViewColumn Header="name" Width="110" DisplayMemberBinding="{Binding name}"/>
+                        <GridViewColumn Header="date" Width="140" DisplayMemberBinding="{Binding shownStartTime}"/>
+                        <!--<GridViewColumn Header="time" Width="110" DisplayMemberBinding="{Binding time}"/>-->
+                        <GridViewColumn Header="remainingTime" Width="110" DisplayMemberBinding="{Binding remainingTime}"/>
+                        <GridViewColumn Header="end Time" Width="110" DisplayMemberBinding="{Binding shownEndTime}"/>
+                        <GridViewColumn Header="status" Width="110" DisplayMemberBinding="{Binding status}"/>
+                        <GridViewColumn Header="delete" Width="100" >
+                            <GridViewColumn.CellTemplate>
+
+                                <DataTemplate>
+                                    <Button Content="delete" Width="100"  CommandParameter="{Binding}" Click="delete_task"></Button>
+
+
+
+
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button Content="load Tasks " HorizontalAlignment="Left" Height="38" Margin="589,402,0,0" VerticalAlignment="Top" Width="151" Click="load_tasks" />
+            <Button Content="sort
+ Tasks " HorizontalAlignment="Left" Height="38" Margin="405,402,0,0" VerticalAlignment="Top" Width="152" Click="sort_events" />
+            <Button Content="show ended tasks " HorizontalAlignment="Left" Height="38" Margin="218,402,0,0" VerticalAlignment="Top" Width="152" Click="load_ended" />
+            <ListView HorizontalAlignment="Center" x:Name="lst_completed" DockPanel.Dock="Right" Margin="20,10,20,74" Width="860" SelectionChanged="lst_SelectionChanged" Visibility="Hidden">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="id" Width="110" DisplayMemberBinding="{Binding id}" />
+                        <GridViewColumn Header="username" Width="110" DisplayMemberBinding="{Binding user}"/>
+                        <GridViewColumn Header="name" Width="110" DisplayMemberBinding="{Binding name}"/>
+                        <GridViewColumn Header="date" Width="140" DisplayMemberBinding="{Binding shownStartTime}"/>
+                        <!--<GridViewColumn Header="time" Width="110" DisplayMemberBinding="{Binding time}"/>-->
+
+                        <GridViewColumn Header="end time " Width="110" DisplayMemberBinding="{Binding shownEndTime}"/>
+                        <GridViewColumn Header="status" Width="110" DisplayMemberBinding="{Binding status}"/>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </Grid>
+
+    </Border>
+
+</Page>
